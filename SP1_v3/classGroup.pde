@@ -42,7 +42,7 @@ class Group { //<>// //<>//
     for (int i = 0; i < countries.length; i++) {
       countries[i].displayCountry(x, y + i * height * 0.10);
       //Tried to make some dynamic placements, but after using about a day, i gave up and put in -11.5
-      flags[i].countryFlag(x - (1 * height*0.15), (y + height * i *  0.10)-11.5);
+      flags[i].countryFlag(x - width*0.075, (y + height * i *  0.10)-11.5);
       
     }
   }
